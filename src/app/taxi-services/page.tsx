@@ -16,7 +16,6 @@ const services = [
     title: "Airport Transfer",
     desc: "Reliable, punctual airport pickup and drop service with real-time flight tracking. AC cabs available at all major airports.",
     features: ["Flight tracking", "24/7 available", "Meet & greet", "Fixed pricing"],
-    startingFrom: "₹800",
     popular: true,
   },
   {
@@ -25,7 +24,6 @@ const services = [
     title: "One Way Taxi",
     desc: "Affordable one-way cab service to any destination. Pay only for one direction — no return fare charges.",
     features: ["No return charge", "AC vehicles", "Experienced drivers", "All India coverage"],
-    startingFrom: "₹10/km",
     popular: false,
   },
   {
@@ -34,7 +32,6 @@ const services = [
     title: "Round Trip",
     desc: "Comfortable round trip cab service with the same driver throughout. Best rates for longer journeys.",
     features: ["Same driver", "Waiting charges", "Multi-city stops", "Flexible schedule"],
-    startingFrom: "₹8/km",
     popular: false,
   },
   {
@@ -43,7 +40,6 @@ const services = [
     title: "Local Sightseeing",
     desc: "Explore your city with our knowledgeable local drivers. 8-hour or 12-hour packages available.",
     features: ["8 & 12 hr packages", "Local expert driver", "Fixed km limit", "Multiple stops"],
-    startingFrom: "₹1,200",
     popular: false,
   },
   {
@@ -52,7 +48,6 @@ const services = [
     title: "Corporate Travel",
     desc: "Professional corporate cab services for businesses. Monthly packages, employee pickup/drop, and executive vehicles.",
     features: ["Monthly packages", "Invoice billing", "Executive cars", "Priority booking"],
-    startingFrom: "₹Custom",
     popular: false,
   },
   {
@@ -61,7 +56,6 @@ const services = [
     title: "Wedding Vehicles",
     desc: "Make your special day even more memorable with our decorated wedding car and coach hire service.",
     features: ["Decorated cars", "Luxury options", "Guest coaches", "DJ vehicles"],
-    startingFrom: "₹3,000",
     popular: false,
   },
   {
@@ -70,7 +64,6 @@ const services = [
     title: "Tempo Traveller",
     desc: "Spacious Tempo Traveller for group travel. 12, 14, and 17-seater options for picnics, pilgrimages, and tours.",
     features: ["12/14/17 seater", "AC & Non-AC", "Group tours", "Pan India"],
-    startingFrom: "₹15/km",
     popular: true,
   },
   {
@@ -79,7 +72,6 @@ const services = [
     title: "Luxury Cars",
     desc: "Travel in style with our premium luxury vehicles. Innova Hycross, Fortuner, and premium sedan options.",
     features: ["Innova Hycross", "Fortuner", "Mercedes", "Chauffeur driven"],
-    startingFrom: "₹20/km",
     popular: false,
   },
 ];
@@ -91,7 +83,6 @@ const fleet = [
     capacity: "4 Passengers",
     fuel: "CNG/Petrol",
     ac: true,
-    startingFrom: "₹9/km",
     tag: "Economy",
   },
   {
@@ -100,7 +91,6 @@ const fleet = [
     capacity: "6 Passengers",
     fuel: "CNG/Petrol",
     ac: true,
-    startingFrom: "₹12/km",
     tag: "Family",
   },
   {
@@ -109,7 +99,6 @@ const fleet = [
     capacity: "6-7 Passengers",
     fuel: "Diesel",
     ac: true,
-    startingFrom: "₹15/km",
     tag: "Premium",
   },
   {
@@ -118,7 +107,6 @@ const fleet = [
     capacity: "7 Passengers",
     fuel: "Hybrid",
     ac: true,
-    startingFrom: "₹18/km",
     tag: "Luxury",
   },
 ];
@@ -199,8 +187,8 @@ export default function TaxiServicesPage() {
               </ul>
               <div className="flex items-center justify-between pt-4 border-t border-gold-200/30 dark:border-gold-500/10">
                 <div>
-                  <p className="text-xs text-navy-500 dark:text-cream-400/60">Starting from</p>
-                  <p className="font-bold text-gold-600 dark:text-gold-400">{service.startingFrom}</p>
+                  <p className="text-xs text-navy-500 dark:text-cream-400/60">Pricing</p>
+                  <p className="font-bold text-gold-600 dark:text-gold-400">On Request</p>
                 </div>
                 <a href="tel:+918700418360" className="btn-gold text-xs px-3 py-2">
                   Book Now
@@ -253,7 +241,7 @@ export default function TaxiServicesPage() {
                     AC Available
                   </div>
                   <div className="text-xs font-bold text-gold-600 dark:text-gold-400">
-                    {car.startingFrom}
+                    Call for Price
                   </div>
                 </div>
                 <a href="tel:+918700418360" className="btn-gold w-full justify-center text-sm py-2">

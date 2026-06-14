@@ -230,7 +230,7 @@ export default function Footer() {
               © {new Date().getFullYear()} Raghuvanshi Travels. All rights reserved.
             </p>
             <p style={{ color: "rgba(212,184,150,0.4)", fontSize: "0.75rem", margin: 0 }}>
-              Developed & Maintained by <a href="tel:+918810220691" style={{ color: "#C9A96E", textDecoration: "none", fontWeight: 600 }}>Adarsh Kumar Pandey</a>
+              Made by <a href="tel:+918810220691" style={{ color: "#C9A96E", textDecoration: "none", fontWeight: 600 }}>Adarsh Kumar Pandey (+91 88102 20691)</a>
             </p>
           </div>
           <div style={{ display: "flex", alignItems: "center", gap: "1.5rem" }}>

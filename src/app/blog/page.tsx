@@ -34,7 +34,7 @@ const posts = [
   },
   {
     id: "manali-budget-tips",
-    title: "Manali on a Budget: 7 Days Under ₹15,000 Per Person",
+    title: "Manali on a Budget: 7 Days Travel Guide",
     excerpt:
       "Yes, Manali can be affordable! Discover how to experience the best of Himachal — snow points, Rohtang, local food — without burning a hole in your pocket.",
     image: "https://images.unsplash.com/photo-1609766418204-94de31e7a5a1?w=700&q=80",

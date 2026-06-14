@@ -103,7 +103,7 @@ const faqs = [
       },
       {
         q: "Is there a night travel charge?",
-        a: "Yes, trips requiring the driver to stay overnight incur a driver night allowance (typically ₹300–₹500/night), which is communicated upfront and included in the total quote.",
+        a: "Yes, trips requiring the driver to stay overnight incur a driver night allowance, which is communicated upfront and included in the total quote.",
       },
     ],
   },

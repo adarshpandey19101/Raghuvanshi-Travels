@@ -39,7 +39,6 @@ const popularDestinations = [
     state: "Himachal Pradesh",
     image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
     packages: "12 Packages",
-    startingFrom: "₹8,999",
     tag: "🏔️ Adventure",
     href: "/packages/himachal",
   },
@@ -48,7 +47,6 @@ const popularDestinations = [
     state: "Jammu & Kashmir",
     image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
     packages: "15 Packages",
-    startingFrom: "₹12,999",
     tag: "❄️ Paradise",
     href: "/packages/kashmir",
   },
@@ -57,7 +55,6 @@ const popularDestinations = [
     state: "Uttarakhand",
     image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=600&q=80",
     packages: "8 Packages",
-    startingFrom: "₹9,499",
     tag: "🙏 Spiritual",
     href: "/packages/kedarnath",
   },
@@ -66,7 +63,6 @@ const popularDestinations = [
     state: "Rajasthan",
     image: "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=600&q=80",
     packages: "10 Packages",
-    startingFrom: "₹7,999",
     tag: "👑 Heritage",
     href: "/packages/rajasthan",
   },
@@ -75,7 +71,6 @@ const popularDestinations = [
     state: "Goa",
     image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=600&q=80",
     packages: "9 Packages",
-    startingFrom: "₹10,499",
     tag: "🌊 Beach",
     href: "/packages/goa",
   },
@@ -84,7 +79,6 @@ const popularDestinations = [
     state: "Uttar Pradesh",
     image: "https://images.unsplash.com/photo-1548013146-72479768bada?w=600&q=80",
     packages: "6 Packages",
-    startingFrom: "₹5,999",
     tag: "🛕 Divine",
     href: "/packages/ayodhya",
   },
@@ -103,8 +97,6 @@ const featuredPackages = [
     name: "Kashmir Honeymoon Special",
     image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
     duration: "6 Nights / 7 Days",
-    startingFrom: "₹24,999",
-    perPerson: true,
     rating: 4.9,
     reviews: 124,
     highlights: ["Gulmarg", "Pahalgam", "Dal Lake", "Sonmarg"],
@@ -117,8 +109,6 @@ const featuredPackages = [
     name: "Char Dham Yatra Package",
     image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800&q=80",
     duration: "11 Nights / 12 Days",
-    startingFrom: "₹32,999",
-    perPerson: true,
     rating: 4.8,
     reviews: 89,
     highlights: ["Yamunotri", "Gangotri", "Kedarnath", "Badrinath"],
@@ -131,8 +121,6 @@ const featuredPackages = [
     name: "Shimla Manali Explorer",
     image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
     duration: "6 Nights / 7 Days",
-    startingFrom: "₹16,999",
-    perPerson: true,
     rating: 4.7,
     reviews: 156,
     highlights: ["Shimla", "Kufri", "Manali", "Rohtang"],
@@ -145,8 +133,6 @@ const featuredPackages = [
     name: "Rajasthan Royal Heritage",
     image: "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=800&q=80",
     duration: "7 Nights / 8 Days",
-    startingFrom: "₹19,999",
-    perPerson: true,
     rating: 4.8,
     reviews: 98,
     highlights: ["Jaipur", "Udaipur", "Jodhpur", "Jaisalmer"],
@@ -567,9 +553,9 @@ export default function HeroSection() {
                   </div>
                   <div className="p-4 flex items-center justify-between bg-white dark:bg-navy-800">
                     <div>
-                      <p className="text-xs text-navy-500 dark:text-cream-400/60">{dest.packages}</p>
-                      <p className="text-sm font-semibold text-navy-700 dark:text-cream-200">
-                        Starting from <span className="text-gold-600 dark:text-gold-400">{dest.startingFrom}</span>
+                      <p className="text-sm font-semibold text-navy-700 dark:text-cream-200">{dest.packages}</p>
+                      <p className="text-xs text-gold-600 dark:text-gold-400">
+                        Customized Quotes Available
                       </p>
                     </div>
                     <div className="w-8 h-8 rounded-full bg-gold-50 dark:bg-gold-500/10 flex items-center justify-center group-hover:bg-gold-500 transition-colors duration-300">
@@ -663,12 +649,9 @@ export default function HeroSection() {
                   </div>
                   <div className="flex items-center justify-between">
                     <div>
-                      <p className="text-xs text-navy-500 dark:text-cream-400/60">Starting from</p>
-                      <p className="text-2xl font-bold text-gold-600 dark:text-gold-400 font-serif">
-                        {pkg.startingFrom}
-                        <span className="text-sm font-normal text-navy-500 dark:text-cream-400/60">
-                          {pkg.perPerson ? "/person" : ""}
-                        </span>
+                      <p className="text-xs text-navy-500 dark:text-cream-400/60">Pricing</p>
+                      <p className="text-lg font-bold text-gold-600 dark:text-gold-400 font-serif">
+                        On Request
                       </p>
                     </div>
                     <Link

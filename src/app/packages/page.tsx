@@ -28,7 +28,6 @@ const packages = [
     name: "Kashmir Honeymoon Special",
     image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
     duration: "6N/7D",
-    price: "₹24,999",
     rating: 4.9,
     reviews: 124,
     category: "Kashmir",
@@ -41,7 +40,6 @@ const packages = [
     name: "Complete Char Dham Yatra",
     image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800&q=80",
     duration: "11N/12D",
-    price: "₹32,999",
     rating: 4.8,
     reviews: 89,
     category: "Uttarakhand",
@@ -54,7 +52,6 @@ const packages = [
     name: "Shimla Manali Explorer",
     image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
     duration: "6N/7D",
-    price: "₹16,999",
     rating: 4.7,
     reviews: 156,
     category: "Himachal",
@@ -67,7 +64,6 @@ const packages = [
     name: "Rajasthan Royal Heritage",
     image: "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=800&q=80",
     duration: "7N/8D",
-    price: "₹19,999",
     rating: 4.8,
     reviews: 98,
     category: "Rajasthan",
@@ -80,7 +76,6 @@ const packages = [
     name: "Goa Beach Holiday",
     image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&q=80",
     duration: "4N/5D",
-    price: "₹14,499",
     rating: 4.6,
     reviews: 203,
     category: "Goa",
@@ -93,7 +88,6 @@ const packages = [
     name: "Kedarnath Dham Yatra",
     image: "https://images.unsplash.com/photo-1627894483216-2138af692e32?w=800&q=80",
     duration: "4N/5D",
-    price: "₹11,999",
     rating: 4.9,
     reviews: 67,
     category: "Kedarnath",
@@ -106,7 +100,6 @@ const packages = [
     name: "Ayodhya Ram Mandir Tour",
     image: "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80",
     duration: "2N/3D",
-    price: "₹6,999",
     rating: 4.9,
     reviews: 142,
     category: "Ayodhya",
@@ -119,7 +112,6 @@ const packages = [
     name: "Uttarakhand Adventure",
     image: "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?w=800&q=80",
     duration: "5N/6D",
-    price: "₹13,999",
     rating: 4.7,
     reviews: 81,
     category: "Uttarakhand",
@@ -244,9 +236,9 @@ export default function PackagesPage() {
 
                 <div className="flex items-center justify-between pt-3 border-t border-gold-100 dark:border-gold-500/10">
                   <div>
-                    <p className="text-xs text-navy-500 dark:text-cream-400/50">Starting from</p>
+                    <p className="text-xs text-navy-500 dark:text-cream-400/50">Pricing</p>
                     <p className="text-xl font-bold text-gold-600 dark:text-gold-400 font-serif">
-                      {pkg.price}<span className="text-xs font-normal">/person</span>
+                      On Request
                     </p>
                   </div>
                   <div className="flex gap-2">
