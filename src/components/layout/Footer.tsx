@@ -57,7 +57,7 @@ export default function Footer() {
         >
           {/* ── Brand Column ── */}
           <div style={{ gridColumn: "span 1" }}>
-            <Link href="/" style={{ textDecoration: "none", display: "inline-block", marginBottom: "1rem" }}>
+            <Link href="/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", display: "inline-block", marginBottom: "1rem" }}>
               <span
                 style={{
                   fontFamily: "'Playfair Display', Georgia, serif",
@@ -91,6 +91,8 @@ export default function Footer() {
             <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem" }}>
               <a
                 href="tel:+918700418360"
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{ display: "flex", alignItems: "center", gap: "0.6rem", color: "#C9A96E", textDecoration: "none", fontSize: "0.875rem" }}
               >
                 <div style={{ width: "2rem", height: "2rem", borderRadius: "0.5rem", background: "rgba(201,169,110,0.12)", border: "1px solid rgba(201,169,110,0.2)", display: "flex", alignItems: "center", justifyContent: "center" }}>
@@ -123,6 +125,8 @@ export default function Footer() {
                 <a
                   key={s.label}
                   href={s.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   aria-label={s.label}
                   style={{
                     width: "2.1rem", height: "2.1rem", borderRadius: "0.5rem",
@@ -154,7 +158,7 @@ export default function Footer() {
             <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.35rem" }}>
               {footerLinks.packages.map((link) => (
                 <li key={link.name}>
-                  <Link href={link.href} style={linkStyle}>
+                  <Link href={link.href} target="_blank" rel="noopener noreferrer" style={linkStyle}>
                     <span style={{ width: "5px", height: "5px", borderRadius: "50%", background: "#C9A96E", flexShrink: 0 }} />
                     {link.name}
                   </Link>
@@ -178,7 +182,7 @@ export default function Footer() {
             <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.35rem" }}>
               {footerLinks.services.map((link) => (
                 <li key={link.name}>
-                  <Link href={link.href} style={linkStyle}>
+                  <Link href={link.href} target="_blank" rel="noopener noreferrer" style={linkStyle}>
                     <span style={{ width: "5px", height: "5px", borderRadius: "50%", background: "#C9A96E", flexShrink: 0 }} />
                     {link.name}
                   </Link>
@@ -202,7 +206,7 @@ export default function Footer() {
             <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.35rem" }}>
               {footerLinks.company.map((link) => (
                 <li key={link.name}>
-                  <Link href={link.href} style={linkStyle}>
+                  <Link href={link.href} target="_blank" rel="noopener noreferrer" style={linkStyle}>
                     <span style={{ width: "5px", height: "5px", borderRadius: "50%", background: "#C9A96E", flexShrink: 0 }} />
                     {link.name}
                   </Link>
@@ -213,7 +217,7 @@ export default function Footer() {
             {/* Quick Book CTA */}
             <div style={{ marginTop: "1.5rem", padding: "1rem", borderRadius: "0.75rem", background: "rgba(201,169,110,0.08)", border: "1px solid rgba(201,169,110,0.18)" }}>
               <p style={{ color: "#C9A96E", fontSize: "0.75rem", fontWeight: 600, marginBottom: "0.5rem" }}>📞 INSTANT BOOKING</p>
-              <a href="tel:+918700418360" style={{ color: "#ffffff", fontWeight: 700, fontSize: "1rem", textDecoration: "none", display: "block" }}>
+              <a href="tel:+918700418360" target="_blank" rel="noopener noreferrer" style={{ color: "#ffffff", fontWeight: 700, fontSize: "1rem", textDecoration: "none", display: "block" }}>
                 +91 87004 18360
               </a>
               <p style={{ color: "rgba(212,184,150,0.55)", fontSize: "0.75rem", marginTop: "0.2rem" }}>Call or WhatsApp anytime</p>
@@ -230,7 +234,7 @@ export default function Footer() {
               © {new Date().getFullYear()} Raghuvanshi Travels. All rights reserved.
             </p>
             <p style={{ color: "rgba(212,184,150,0.4)", fontSize: "0.75rem", margin: 0 }}>
-              Made by <a href="tel:+918810220691" style={{ color: "#C9A96E", textDecoration: "none", fontWeight: 600 }}>Adarsh Kumar Pandey (+91 88102 20691)</a>
+              Made by <a href="tel:+918810220691" target="_blank" rel="noopener noreferrer" style={{ color: "#C9A96E", textDecoration: "none", fontWeight: 600 }}>Adarsh Kumar Pandey (+91 88102 20691)</a>
             </p>
           </div>
           <div style={{ display: "flex", alignItems: "center", gap: "1.5rem" }}>
@@ -241,6 +245,8 @@ export default function Footer() {
               <Link
                 key={l.name}
                 href={l.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{ color: "rgba(212,184,150,0.4)", fontSize: "0.8rem", textDecoration: "none" }}
               >
                 {l.name}

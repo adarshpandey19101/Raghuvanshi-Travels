@@ -114,7 +114,7 @@ export default function GalleryPage() {
         </div>
         <div className="section-container" style={{ position: "relative", zIndex: 1, textAlign: "center" }}>
           <nav style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "0.5rem", fontSize: "0.8rem", color: "rgba(212,184,150,0.5)", marginBottom: "1.25rem" }}>
-            <Link href="/" style={{ color: "rgba(212,184,150,0.5)", textDecoration: "none" }}>Home</Link>
+            <Link href="/" target="_blank" rel="noopener noreferrer" style={{ color: "rgba(212,184,150,0.5)", textDecoration: "none" }}>Home</Link>
             <span>/</span>
             <span style={{ color: "#C9A96E" }}>Gallery</span>
           </nav>
@@ -218,8 +218,8 @@ export default function GalleryPage() {
             </h2>
             <p style={{ color: "#4a5568", marginBottom: "2rem" }}>Book a tour package with us and explore India&apos;s most beautiful destinations.</p>
             <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
-              <Link href="/packages" className="btn-gold">Browse Packages</Link>
-              <a href="tel:+918700418360" className="btn-navy">Call +91 87004 18360</a>
+              <Link href="/packages" target="_blank" rel="noopener noreferrer" className="btn-gold">Browse Packages</Link>
+              <a href="tel:+918700418360" target="_blank" rel="noopener noreferrer" className="btn-navy">Call +91 87004 18360</a>
             </div>
           </div>
         </div>

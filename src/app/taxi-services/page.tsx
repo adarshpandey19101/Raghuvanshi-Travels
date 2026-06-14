@@ -127,7 +127,7 @@ export default function TaxiServicesPage() {
         </div>
         <div className="section-container relative z-10 text-center">
           <nav className="flex items-center justify-center gap-2 text-sm text-cream-300/60 mb-6">
-            <Link href="/" className="hover:text-gold-400 transition-colors">Home</Link>
+            <Link href="/" target="_blank" rel="noopener noreferrer" className="hover:text-gold-400 transition-colors">Home</Link>
             <span>/</span>
             <span className="text-gold-400">Taxi Services</span>
           </nav>
@@ -138,7 +138,7 @@ export default function TaxiServicesPage() {
           <p className="text-cream-300/80 text-lg max-w-2xl mx-auto mb-8">
             Safe, comfortable, and affordable cab services across India. Airport transfers, outstation, corporate, and more.
           </p>
-          <a href="tel:+918700418360" className="btn-gold text-lg px-8 py-4 inline-flex">
+          <a href="tel:+918700418360" target="_blank" rel="noopener noreferrer" className="btn-gold text-lg px-8 py-4 inline-flex">
             <Phone size={20} />
             Book Now: +91 87004 18360
           </a>
@@ -190,7 +190,7 @@ export default function TaxiServicesPage() {
                   <p className="text-xs text-navy-500 dark:text-cream-400/60">Pricing</p>
                   <p className="font-bold text-gold-600 dark:text-gold-400">On Request</p>
                 </div>
-                <a href="tel:+918700418360" className="btn-gold text-xs px-3 py-2">
+                <a href="tel:+918700418360" target="_blank" rel="noopener noreferrer" className="btn-gold text-xs px-3 py-2">
                   Book Now
                 </a>
               </div>
@@ -244,7 +244,7 @@ export default function TaxiServicesPage() {
                     Call for Price
                   </div>
                 </div>
-                <a href="tel:+918700418360" className="btn-gold w-full justify-center text-sm py-2">
+                <a href="tel:+918700418360" target="_blank" rel="noopener noreferrer" className="btn-gold w-full justify-center text-sm py-2">
                   Book This Vehicle
                 </a>
               </div>
@@ -253,7 +253,7 @@ export default function TaxiServicesPage() {
         </div>
 
         <div className="text-center mt-10">
-          <Link href="/fleet" className="btn-outline-gold">
+          <Link href="/fleet" target="_blank" rel="noopener noreferrer" className="btn-outline-gold">
             View Full Fleet
             <ArrowRight size={16} />
           </Link>
@@ -271,7 +271,7 @@ export default function TaxiServicesPage() {
             Get instant booking confirmation. Call or WhatsApp us 24/7 for immediate assistance.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:+918700418360" className="btn-gold text-lg px-8 py-4">
+            <a href="tel:+918700418360" target="_blank" rel="noopener noreferrer" className="btn-gold text-lg px-8 py-4">
               <Phone size={20} />
               +91 87004 18360
             </a>

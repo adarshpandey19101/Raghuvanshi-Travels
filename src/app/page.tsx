@@ -346,12 +346,14 @@ export default function HeroSection() {
               transition={{ delay: 0.3 }}
               className="flex flex-wrap gap-4"
             >
-              <Link href="/packages" className="btn-gold text-base px-8 py-4">
+              <Link href="/packages" target="_blank" rel="noopener noreferrer" className="btn-gold text-base px-8 py-4">
                 Explore Packages
                 <ArrowRight size={18} />
               </Link>
               <a
                 href="tel:+918700418360"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn-outline-gold text-base px-8 py-4 border-white/40 text-white hover:bg-white/10 hover:border-white"
               >
                 <Phone size={18} />
@@ -440,7 +442,7 @@ export default function HeroSection() {
                   <option>10+ Persons</option>
                 </select>
               </div>
-              <Link href="/packages" className="btn-gold justify-center py-3">
+              <Link href="/packages" target="_blank" rel="noopener noreferrer" className="btn-gold justify-center py-3">
                 <Search size={16} />
                 Search Packages
               </Link>
@@ -470,7 +472,7 @@ export default function HeroSection() {
                   className="w-full pl-9 pr-4 py-3 rounded-xl border border-gold-200/40 dark:border-gold-500/20 bg-white/50 dark:bg-navy-800/50 text-navy-800 dark:text-cream-100 text-sm focus:outline-none focus:ring-2 focus:ring-gold-400"
                 />
               </div>
-              <a href="tel:+918700418360" className="btn-gold justify-center py-3">
+              <a href="tel:+918700418360" target="_blank" rel="noopener noreferrer" className="btn-gold justify-center py-3">
                 <Phone size={16} />
                 Book Now
               </a>
@@ -528,7 +530,7 @@ export default function HeroSection() {
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.1 }}
               >
-                <Link href={dest.href} className="block group package-card">
+                <Link href={dest.href} target="_blank" rel="noopener noreferrer" className="block group package-card">
                   <div className="relative h-56 overflow-hidden">
                     <Image
                       src={dest.image}
@@ -568,7 +570,7 @@ export default function HeroSection() {
           </div>
 
           <div className="text-center mt-10">
-            <Link href="/packages" className="btn-outline-gold">
+            <Link href="/packages" target="_blank" rel="noopener noreferrer" className="btn-outline-gold">
               View All Packages
               <ArrowRight size={16} />
             </Link>
@@ -656,6 +658,8 @@ export default function HeroSection() {
                     </div>
                     <Link
                       href={pkg.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="btn-gold text-sm px-5 py-2.5"
                     >
                       View Details
@@ -668,7 +672,7 @@ export default function HeroSection() {
           </div>
 
           <div className="text-center mt-10">
-            <Link href="/packages" className="btn-navy">
+            <Link href="/packages" target="_blank" rel="noopener noreferrer" className="btn-navy">
               View All Packages
               <ArrowRight size={16} />
             </Link>
@@ -705,6 +709,8 @@ export default function HeroSection() {
               >
                 <Link
                   href={service.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="glass-card p-5 md:p-6 flex flex-col items-center text-center gap-3 hover:shadow-gold-lg hover:-translate-y-2 transition-all duration-300 group block"
                 >
                   <div className="text-4xl group-hover:scale-110 transition-transform duration-300">
@@ -722,7 +728,7 @@ export default function HeroSection() {
           </div>
 
           <div className="text-center mt-10">
-            <Link href="/taxi-services" className="btn-gold">
+            <Link href="/taxi-services" target="_blank" rel="noopener noreferrer" className="btn-gold">
               Book a Cab Now
               <ArrowRight size={16} />
             </Link>
@@ -835,7 +841,7 @@ export default function HeroSection() {
           </div>
 
           <div className="text-center mt-10">
-            <Link href="/testimonials" className="btn-outline-gold">
+            <Link href="/testimonials" target="_blank" rel="noopener noreferrer" className="btn-outline-gold">
               Read All Reviews
               <ArrowRight size={16} />
             </Link>
@@ -933,7 +939,7 @@ export default function HeroSection() {
               Get a free customized tour plan within minutes. Our travel experts are ready to craft the perfect itinerary for you.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+918700418360" className="btn-gold text-base px-8 py-4">
+              <a href="tel:+918700418360" target="_blank" rel="noopener noreferrer" className="btn-gold text-base px-8 py-4">
                 <Phone size={18} />
                 Call: +91 87004 18360
               </a>
@@ -949,7 +955,7 @@ export default function HeroSection() {
                 </svg>
                 WhatsApp Us
               </a>
-              <Link href="/contact" className="btn-outline-gold border-white/40 text-white hover:bg-white/10 text-base px-8 py-4">
+              <Link href="/contact" target="_blank" rel="noopener noreferrer" className="btn-outline-gold border-white/40 text-white hover:bg-white/10 text-base px-8 py-4">
                 Inquiry Form
                 <ArrowRight size={18} />
               </Link>

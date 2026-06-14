@@ -87,6 +87,8 @@ export default function Navbar() {
             <span style={{ color: "#C9A96E", fontSize: "0.78rem", fontWeight: 500 }}>⏰ 24/7 Available</span>
             <a
               href="tel:+918700418360"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{ color: "#C9A96E", textDecoration: "none", display: "flex", alignItems: "center", gap: "0.35rem", fontSize: "0.8rem", fontWeight: 600 }}
             >
               <Phone size={11} />
@@ -115,7 +117,7 @@ export default function Navbar() {
       >
         <div className="section-container" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", height: "4.25rem" }}>
           {/* ── Brand ── */}
-          <Link href="/" style={{ textDecoration: "none", display: "flex", flexDirection: "column", lineHeight: 1 }}>
+          <Link href="/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", display: "flex", flexDirection: "column", lineHeight: 1 }}>
             <span style={{ fontFamily: "'Playfair Display', Georgia, serif", fontWeight: 700, fontSize: "1.25rem", color: isDark ? "#ffffff" : "#0D1B2A", lineHeight: 1.25 }}>
               Raghuvanshi
             </span>
@@ -135,6 +137,8 @@ export default function Navbar() {
               >
                 <Link
                   href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   style={{
                     display: "flex", alignItems: "center", gap: "0.2rem",
                     padding: "0.45rem 0.65rem", borderRadius: "0.5rem",
@@ -181,6 +185,8 @@ export default function Navbar() {
                           <Link
                             key={child.name}
                             href={child.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
                             style={{
                               display: "flex", alignItems: "center", gap: "0.5rem",
                               padding: "0.55rem 0.75rem", borderRadius: "0.5rem",
@@ -227,11 +233,11 @@ export default function Navbar() {
             )}
 
             {/* Call CTA */}
-            <a href="tel:+918700418360" className="btn-gold" style={{ fontSize: "0.8rem", padding: "0.55rem 1.1rem", display: "none" }} id="nav-call-btn">
+            <a href="tel:+918700418360" target="_blank" rel="noopener noreferrer" className="btn-gold" style={{ fontSize: "0.8rem", padding: "0.55rem 1.1rem", display: "none" }} id="nav-call-btn">
               <Phone size={14} />
               Call Now
             </a>
-            <a href="tel:+918700418360" className="btn-gold hidden md:inline-flex" style={{ fontSize: "0.8rem", padding: "0.55rem 1.1rem" }}>
+            <a href="tel:+918700418360" target="_blank" rel="noopener noreferrer" className="btn-gold hidden md:inline-flex" style={{ fontSize: "0.8rem", padding: "0.55rem 1.1rem" }}>
               <Phone size={14} />
               Call Now
             </a>
@@ -277,6 +283,8 @@ export default function Navbar() {
                 <div key={link.name}>
                   <Link
                     href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{
                       display: "flex", alignItems: "center", justifyContent: "space-between",
                       padding: "0.75rem 1rem", borderRadius: "0.75rem",
@@ -296,6 +304,8 @@ export default function Navbar() {
                         <Link
                           key={child.name}
                           href={child.href}
+                          target="_blank"
+                          rel="noopener noreferrer"
                           style={{
                             display: "flex", alignItems: "center", gap: "0.5rem",
                             padding: "0.6rem 1rem", borderRadius: "0.5rem",
@@ -314,7 +324,7 @@ export default function Navbar() {
               ))}
 
               <div style={{ marginTop: "1rem", paddingTop: "1rem", borderTop: `1px solid ${isDark ? "rgba(201,169,110,0.12)" : "rgba(201,169,110,0.18)"}`, display: "flex", flexDirection: "column", gap: "0.75rem" }}>
-                <a href="tel:+918700418360" className="btn-gold" style={{ justifyContent: "center" }}>
+                <a href="tel:+918700418360" target="_blank" rel="noopener noreferrer" className="btn-gold" style={{ justifyContent: "center" }}>
                   <Phone size={16} />
                   Call: +91 87004 18360
                 </a>

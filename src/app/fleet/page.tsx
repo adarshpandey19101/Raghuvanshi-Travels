@@ -120,7 +120,7 @@ export default function FleetPage() {
         </div>
         <div className="section-container" style={{ position: "relative", zIndex: 1, textAlign: "center" }}>
           <nav style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "0.5rem", fontSize: "0.8rem", color: "rgba(212,184,150,0.5)", marginBottom: "1.5rem" }}>
-            <Link href="/" style={{ color: "rgba(212,184,150,0.5)", textDecoration: "none" }}>Home</Link>
+            <Link href="/" target="_blank" rel="noopener noreferrer" style={{ color: "rgba(212,184,150,0.5)", textDecoration: "none" }}>Home</Link>
             <span>/</span>
             <span style={{ color: "#C9A96E" }}>Our Fleet</span>
           </nav>
@@ -245,6 +245,8 @@ export default function FleetPage() {
                     </a>
                     <a
                       href="tel:+918700418360"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="btn-gold"
                       style={{ flex: 1, justifyContent: "center", padding: "0.75rem", borderRadius: "0.5rem", fontSize: "0.85rem" }}
                     >
@@ -269,7 +271,7 @@ export default function FleetPage() {
               Prices depend on distance, duration, and season. Call us or send a message for an instant, transparent quote with no hidden charges.
             </p>
             <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
-              <a href="tel:+918700418360" className="btn-gold" style={{ fontSize: "1rem", padding: "0.9rem 2rem" }}>
+              <a href="tel:+918700418360" target="_blank" rel="noopener noreferrer" className="btn-gold" style={{ fontSize: "1rem", padding: "0.9rem 2rem" }}>
                 <Phone size={18} />
                 +91 87004 18360
               </a>

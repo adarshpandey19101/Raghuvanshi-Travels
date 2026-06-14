@@ -106,7 +106,7 @@ export default function BlogPage() {
       <section style={{ background: "#0D1B2A", padding: "5.5rem 0" }}>
         <div className="section-container" style={{ textAlign: "center" }}>
           <nav style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "0.5rem", fontSize: "0.8rem", color: "rgba(212,184,150,0.5)", marginBottom: "1.25rem" }}>
-            <Link href="/" style={{ color: "rgba(212,184,150,0.5)", textDecoration: "none" }}>Home</Link>
+            <Link href="/" target="_blank" rel="noopener noreferrer" style={{ color: "rgba(212,184,150,0.5)", textDecoration: "none" }}>Home</Link>
             <span>/</span>
             <span style={{ color: "#C9A96E" }}>Blog</span>
           </nav>
@@ -125,6 +125,8 @@ export default function BlogPage() {
           {/* Featured Post */}
           <Link
             href={`/blog/${featured.id}`}
+            target="_blank"
+            rel="noopener noreferrer"
             style={{ textDecoration: "none", display: "block", marginBottom: "3rem" }}
           >
             <article
@@ -175,6 +177,8 @@ export default function BlogPage() {
               <Link
                 key={post.id}
                 href={`/blog/${post.id}`}
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{ textDecoration: "none" }}
               >
                 <article
@@ -221,7 +225,7 @@ export default function BlogPage() {
               Ready to <span className="gradient-text-gold">Explore India?</span>
             </h2>
             <p style={{ color: "var(--text-secondary)", marginBottom: "1.75rem" }}>Turn your travel inspiration into reality. Call us to plan your trip.</p>
-            <a href="tel:+918700418360" className="btn-gold" style={{ fontSize: "1rem", padding: "0.9rem 2rem" }}>
+            <a href="tel:+918700418360" target="_blank" rel="noopener noreferrer" className="btn-gold" style={{ fontSize: "1rem", padding: "0.9rem 2rem" }}>
               <Phone size={18} />
               Book Now: +91 87004 18360
             </a>

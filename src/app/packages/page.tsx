@@ -137,7 +137,7 @@ export default function PackagesPage() {
         </div>
         <div className="section-container relative z-10 text-center">
           <nav className="flex items-center justify-center gap-2 text-sm text-cream-300/60 mb-6">
-            <Link href="/" className="hover:text-gold-400 transition-colors">Home</Link>
+            <Link href="/" target="_blank" rel="noopener noreferrer" className="hover:text-gold-400 transition-colors">Home</Link>
             <span>/</span>
             <span className="text-gold-400">Tour Packages</span>
           </nav>
@@ -159,6 +159,8 @@ export default function PackagesPage() {
               <Link
                 key={cat.name}
                 href={cat.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="shrink-0 px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 bg-gold-50 dark:bg-gold-500/10 text-gold-700 dark:text-gold-400 hover:bg-gold-100 dark:hover:bg-gold-500/20 whitespace-nowrap"
               >
                 {cat.name}
@@ -242,10 +244,10 @@ export default function PackagesPage() {
                     </p>
                   </div>
                   <div className="flex gap-2">
-                    <a href="tel:+918700418360" className="p-2.5 rounded-xl border border-gold-200 dark:border-gold-500/20 text-gold-600 dark:text-gold-400 hover:bg-gold-50 dark:hover:bg-gold-500/10 transition-colors">
+                    <a href="tel:+918700418360" target="_blank" rel="noopener noreferrer" className="p-2.5 rounded-xl border border-gold-200 dark:border-gold-500/20 text-gold-600 dark:text-gold-400 hover:bg-gold-50 dark:hover:bg-gold-500/10 transition-colors">
                       <Phone size={16} />
                     </a>
-                    <Link href={`/packages/${pkg.id}`} className="btn-gold text-sm px-4 py-2.5">
+                    <Link href={`/packages/${pkg.id}`} target="_blank" rel="noopener noreferrer" className="btn-gold text-sm px-4 py-2.5">
                       View Details
                     </Link>
                   </div>
@@ -267,7 +269,7 @@ export default function PackagesPage() {
             Tell us your dream destination, budget, and dates — we&apos;ll craft the perfect personalized itinerary just for you.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:+918700418360" className="btn-gold">
+            <a href="tel:+918700418360" target="_blank" rel="noopener noreferrer" className="btn-gold">
               <Phone size={16} />
               Call for Custom Quote
             </a>

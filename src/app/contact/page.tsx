@@ -50,7 +50,7 @@ export default function ContactPage() {
         </div>
         <div className="section-container relative z-10 text-center">
           <nav className="flex items-center justify-center gap-2 text-sm text-cream-300/60 mb-6">
-            <Link href="/" className="hover:text-gold-400 transition-colors">Home</Link>
+            <Link href="/" target="_blank" rel="noopener noreferrer" className="hover:text-gold-400 transition-colors">Home</Link>
             <span>/</span>
             <span className="text-gold-400">Contact</span>
           </nav>
@@ -71,8 +71,8 @@ export default function ContactPage() {
             <a
               key={info.title}
               href={info.href}
-              target={info.href.startsWith("http") ? "_blank" : undefined}
-              rel={info.href.startsWith("http") ? "noopener noreferrer" : undefined}
+              target="_blank"
+              rel="noopener noreferrer"
               className="glass-card p-6 text-center hover:-translate-y-2 hover:shadow-gold-lg transition-all duration-300 group"
             >
               <div className="w-14 h-14 rounded-2xl bg-gold-500/10 border border-gold-500/20 flex items-center justify-center mx-auto mb-4 group-hover:bg-gold-500/20 transition-colors">
@@ -124,6 +124,8 @@ export default function ContactPage() {
               <div className="space-y-3">
                 <a
                   href="tel:+918700418360"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 rounded-xl bg-gold-50 dark:bg-gold-500/10 border border-gold-200/50 dark:border-gold-500/20 hover:shadow-gold transition-all duration-300 group"
                 >
                   <div className="w-12 h-12 rounded-xl bg-gold-500 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">

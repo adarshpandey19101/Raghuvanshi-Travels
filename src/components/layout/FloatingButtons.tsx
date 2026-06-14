@@ -53,6 +53,8 @@ export default function FloatingButtons() {
       >
         <a
           href="tel:+918700418360"
+          target="_blank"
+          rel="noopener noreferrer"
           className="call-pulse w-14 h-14 rounded-full flex items-center justify-center text-white shadow-gold hover:scale-110 transition-transform duration-300"
           style={{ background: "linear-gradient(135deg, #C9A96E, #b5882a)" }}
           aria-label="Call Now"

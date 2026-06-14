@@ -116,7 +116,7 @@ export default function FAQPage() {
       <section style={{ background: "#0D1B2A", padding: "5.5rem 0" }}>
         <div className="section-container" style={{ textAlign: "center" }}>
           <nav style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "0.5rem", fontSize: "0.8rem", color: "rgba(212,184,150,0.5)", marginBottom: "1.25rem" }}>
-            <Link href="/" style={{ color: "rgba(212,184,150,0.5)", textDecoration: "none" }}>Home</Link>
+            <Link href="/" target="_blank" rel="noopener noreferrer" style={{ color: "rgba(212,184,150,0.5)", textDecoration: "none" }}>Home</Link>
             <span>/</span>
             <span style={{ color: "#C9A96E" }}>FAQ</span>
           </nav>
@@ -181,7 +181,7 @@ export default function FAQPage() {
               Our team is available 24/7 — just give us a call or drop a WhatsApp message.
             </p>
             <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
-              <a href="tel:+918700418360" className="btn-gold">
+              <a href="tel:+918700418360" target="_blank" rel="noopener noreferrer" className="btn-gold">
                 <Phone size={16} />
                 +91 87004 18360
               </a>

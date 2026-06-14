@@ -57,7 +57,7 @@ export default function AboutPage() {
         </div>
         <div className="section-container relative z-10 text-center">
           <nav className="flex items-center justify-center gap-2 text-sm text-cream-300/60 mb-6">
-            <Link href="/" className="hover:text-gold-400 transition-colors">Home</Link>
+            <Link href="/" target="_blank" rel="noopener noreferrer" className="hover:text-gold-400 transition-colors">Home</Link>
             <span>/</span>
             <span className="text-gold-400">About Us</span>
           </nav>
@@ -207,11 +207,11 @@ export default function AboutPage() {
             Ready to create memories? Our team is just a call away.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:+918700418360" className="btn-gold">
+            <a href="tel:+918700418360" target="_blank" rel="noopener noreferrer" className="btn-gold">
               <Phone size={16} />
               +91 87004 18360
             </a>
-            <Link href="/packages" className="btn-navy">
+            <Link href="/packages" target="_blank" rel="noopener noreferrer" className="btn-navy">
               Browse Packages
               <ArrowRight size={16} />
             </Link>

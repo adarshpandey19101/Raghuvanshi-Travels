@@ -131,7 +131,7 @@ export default function ContactForm() {
 
       <p className="text-xs text-center text-navy-500 dark:text-cream-400/60">
         Or call us directly at{" "}
-        <a href="tel:+918700418360" className="text-gold-600 dark:text-gold-400 font-semibold">
+        <a href="tel:+918700418360" target="_blank" rel="noopener noreferrer" className="text-gold-600 dark:text-gold-400 font-semibold">
           +91 87004 18360
         </a>{" "}
         for immediate assistance

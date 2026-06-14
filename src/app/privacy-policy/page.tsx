@@ -12,7 +12,7 @@ export default function PrivacyPolicyPage() {
       <section style={{ background: "#0D1B2A", padding: "5rem 0" }}>
         <div className="section-container" style={{ textAlign: "center" }}>
           <nav style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "0.5rem", fontSize: "0.8rem", color: "rgba(212,184,150,0.5)", marginBottom: "1.25rem" }}>
-            <Link href="/" style={{ color: "rgba(212,184,150,0.5)", textDecoration: "none" }}>Home</Link>
+            <Link href="/" target="_blank" rel="noopener noreferrer" style={{ color: "rgba(212,184,150,0.5)", textDecoration: "none" }}>Home</Link>
             <span>/</span>
             <span style={{ color: "#C9A96E" }}>Privacy Policy</span>
           </nav>
